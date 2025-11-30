@@ -1,0 +1,15 @@
+{
+  "history": [
+    {
+      "input": "turn on the lamp",
+      "response": "Smart home control: on lamp (not yet connected)",
+      "timestamp": "2025-11-28T07:17:09.104331"
+    },
+    {
+      "input": "What time is it?",
+      "response": "\u274c Could not complete: What time is it?",
+      "timestamp": "2025-11-28T07:17:30.725564"
+    }
+  ],
+  "preferences": {}
+}

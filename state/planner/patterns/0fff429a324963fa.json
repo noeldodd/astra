@@ -1,0 +1,246 @@
+{
+  "id": "pattern_decision",
+  "root_goal_id": "decision_root",
+  "description": "Decision analysis pattern",
+  "goals": {
+    "decision_root": {
+      "id": "decision_root",
+      "parent_id": null,
+      "plan_id": "pattern_decision",
+      "description": "Analyze decision and provide recommendation",
+      "goal_type": "linear",
+      "prompt_template": null,
+      "children": [
+        "decision_step1",
+        "decision_step2",
+        "decision_step3",
+        "decision_step4",
+        "decision_step5"
+      ],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": "Clear recommendation with supporting rationale",
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542405",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 23.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {
+          "decision_quality": 1.0
+        },
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_step1": {
+      "id": "decision_step1",
+      "parent_id": "decision_root",
+      "plan_id": "pattern_decision",
+      "description": "Clarify all available options",
+      "goal_type": "one_shot",
+      "prompt_template": "List all distinct options under consideration",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542409",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 2.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_step2": {
+      "id": "decision_step2",
+      "parent_id": "decision_root",
+      "plan_id": "pattern_decision",
+      "description": "Define decision criteria",
+      "goal_type": "one_shot",
+      "prompt_template": "Extract what matters: priorities, constraints, values",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542412",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 3.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_step3": {
+      "id": "decision_step3",
+      "parent_id": "decision_root",
+      "plan_id": "pattern_decision",
+      "description": "Analyze pros and cons of each option",
+      "goal_type": "branching",
+      "prompt_template": null,
+      "children": [
+        "decision_analysis"
+      ],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542414",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 10.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_analysis": {
+      "id": "decision_analysis",
+      "parent_id": "decision_step3",
+      "plan_id": "pattern_decision",
+      "description": "Analyze option against criteria",
+      "goal_type": "one_shot",
+      "prompt_template": "List pros, cons, risks, and benefits for this option",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542417",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {},
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_step4": {
+      "id": "decision_step4",
+      "parent_id": "decision_root",
+      "plan_id": "pattern_decision",
+      "description": "Score options and compare",
+      "goal_type": "one_shot",
+      "prompt_template": "Score each option on key criteria (0-10) and calculate weighted totals",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542419",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "decision_step5": {
+      "id": "decision_step5",
+      "parent_id": "decision_root",
+      "plan_id": "pattern_decision",
+      "description": "Make recommendation",
+      "goal_type": "one_shot",
+      "prompt_template": "Recommend best option with clear rationale and confidence level",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542422",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 3.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "completed",
+  "started_at": null,
+  "completed_at": null,
+  "success": true,
+  "final_outcome": null,
+  "pattern_signature": "0fff429a324963fa",
+  "tags": [
+    "decision",
+    "analysis",
+    "recommendation"
+  ],
+  "total_cost": {
+    "estimated_costs": {},
+    "actual_costs": {},
+    "estimated_benefits": {},
+    "actual_benefits": {},
+    "risks": [],
+    "risk_mitigation": []
+  },
+  "evaluation_score": 0.85,
+  "lessons_learned": []
+}

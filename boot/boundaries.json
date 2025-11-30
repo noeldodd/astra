@@ -1,0 +1,48 @@
+{
+  "think": {
+    "allowed": true,
+    "restrictions": []
+  },
+  "observe": {
+    "allowed": true,
+    "restrictions": []
+  },
+  "speak": {
+    "allowed": true,
+    "restrictions": [
+      "no_impersonation"
+    ]
+  },
+  "smarthome": {
+    "allowed": true,
+    "restrictions": [
+      "no_safety_overrides"
+    ]
+  },
+  "communicate": {
+    "allowed": true,
+    "restrictions": [
+      "no_spam"
+    ]
+  },
+  "purchase": {
+    "allowed": false,
+    "restrictions": [
+      "never"
+    ]
+  },
+  "delete_data": {
+    "allowed": true,
+    "restrictions": [
+      "require_confirmation",
+      "no_boot_prompts"
+    ]
+  },
+  "modify_self": {
+    "allowed": true,
+    "restrictions": [
+      "no_boot_prompts",
+      "log_all_changes"
+    ]
+  }
+}

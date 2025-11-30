@@ -1,0 +1,293 @@
+{
+  "id": "8daa6918",
+  "root_goal_id": "597b8b54",
+  "description": "Help me plan a weekend in New York",
+  "goals": {
+    "597b8b54": {
+      "id": "597b8b54",
+      "parent_id": null,
+      "plan_id": "8daa6918",
+      "description": "Help me plan a weekend in New York",
+      "goal_type": "linear",
+      "prompt_template": null,
+      "children": [
+        "fb860ba9",
+        "a1925858",
+        "a64739ad",
+        "c3beee32",
+        "51b4f8cb"
+      ],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": "Task completed successfully",
+      "actual_outcome": null,
+      "created_at": "2025-11-28T21:03:58.036625",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 35
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [
+          "User may not provide clear preferences",
+          "Activities may be unavailable or fully booked",
+          "Budget constraints may limit options"
+        ],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "fb860ba9": {
+      "id": "fb860ba9",
+      "parent_id": "597b8b54",
+      "plan_id": "8daa6918",
+      "description": "Clarify user's preferences for the weekend (e.g., activities, budget, interests)",
+      "goal_type": "one_shot",
+      "prompt_template": "Clarify user's preferences for the weekend (e.g., activities, budget, interests)",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "I would ask the user specific questions to clarify their preferences for the weekend in New York, such as preferred activities (e.g., sightseeing, dining, shopping), budget range, and specific interests (e.g., art, history, entertainment).",
+          "result": "By gathering this information, I can tailor the weekend plan to better suit the user's desires and ensure a more enjoyable experience.",
+          "next_steps": "Proceed to ask the user about their preferences regarding activities, budget, and interests."
+        },
+        "error": null,
+        "confidence": 0.8,
+        "side_effects": [],
+        "observations": [
+          "Requires external: False"
+        ]
+      },
+      "created_at": "2025-11-28T21:03:58.036684",
+      "started_at": "2025-11-28T21:03:58.036952",
+      "completed_at": "2025-11-28T21:04:00.178522",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "a1925858": {
+      "id": "a1925858",
+      "parent_id": "597b8b54",
+      "plan_id": "8daa6918",
+      "description": "Research popular activities and attractions in New York based on user preferences",
+      "goal_type": "one_shot",
+      "prompt_template": "Research popular activities and attractions in New York based on user preferences",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "I would gather information on popular activities and attractions in New York City by analyzing user preferences such as interests (e.g., art, food, history, entertainment) and any specific locations or neighborhoods they are interested in. I would then compile a list of recommended activities, including museums, parks, restaurants, and events happening during the weekend.",
+          "result": "The outcome would be a curated list of activities and attractions tailored to the user's interests, including details such as location, hours of operation, and any special events or exhibitions occurring that weekend.",
+          "next_steps": "Once the list is compiled, I would present it to the user for feedback and further refinement based on their preferences."
+        },
+        "error": null,
+        "confidence": 0.5,
+        "side_effects": [],
+        "observations": [
+          "Requires external: True"
+        ]
+      },
+      "created_at": "2025-11-28T21:03:58.036741",
+      "started_at": "2025-11-28T21:04:00.178541",
+      "completed_at": "2025-11-28T21:04:03.077366",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 10
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "a64739ad": {
+      "id": "a64739ad",
+      "parent_id": "597b8b54",
+      "plan_id": "8daa6918",
+      "description": "Filter activities based on user budget and time constraints",
+      "goal_type": "one_shot",
+      "prompt_template": "Filter activities based on user budget and time constraints",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "I would analyze the user's budget and time constraints to filter suitable activities in New York for the weekend. This would involve gathering data on various activities, their costs, and the time required for each, then matching them against the user's specified budget and available time.",
+          "result": "By filtering activities based on the user's budget and time constraints, I would provide a curated list of options that fit within their financial and temporal limits, ensuring a more enjoyable and feasible weekend plan.",
+          "next_steps": "I would need to gather specific details from the user regarding their budget and available time for the weekend, as well as conduct a web search or access APIs to retrieve current activity options and their costs."
+        },
+        "error": null,
+        "confidence": 0.5,
+        "side_effects": [],
+        "observations": [
+          "Requires external: True"
+        ]
+      },
+      "created_at": "2025-11-28T21:03:58.036768",
+      "started_at": "2025-11-28T21:04:03.077380",
+      "completed_at": "2025-11-28T21:04:06.725965",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "c3beee32": {
+      "id": "c3beee32",
+      "parent_id": "597b8b54",
+      "plan_id": "8daa6918",
+      "description": "Create a draft itinerary for the weekend, including timings and locations",
+      "goal_type": "one_shot",
+      "prompt_template": "Create a draft itinerary for the weekend, including timings and locations",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "I would create a draft itinerary for the weekend in New York by researching popular attractions, dining options, and events happening during that time. I would break down the itinerary into specific time slots for each activity, including travel time between locations.",
+          "result": "The draft itinerary would include a mix of sightseeing, dining, and leisure activities, organized by day and time, ensuring a balanced experience of the city.",
+          "next_steps": "Gather specific details about your interests, preferred activities, and any events you want to attend, then finalize the itinerary based on that information."
+        },
+        "error": null,
+        "confidence": 0.5,
+        "side_effects": [],
+        "observations": [
+          "Requires external: True"
+        ]
+      },
+      "created_at": "2025-11-28T21:03:58.036811",
+      "started_at": "2025-11-28T21:04:06.725976",
+      "completed_at": "2025-11-28T21:04:09.504993",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 10
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "51b4f8cb": {
+      "id": "51b4f8cb",
+      "parent_id": "597b8b54",
+      "plan_id": "8daa6918",
+      "description": "Present the final itinerary to the user for review and adjustments",
+      "goal_type": "one_shot",
+      "prompt_template": "Present the final itinerary to the user for review and adjustments",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "Compiled a weekend itinerary for New York based on popular attractions, dining options, and activities.",
+          "result": {
+            "Friday": {
+              "Evening": "Arrive in New York, check into hotel, dinner at a local restaurant (e.g., Katz's Delicatessen)."
+            },
+            "Saturday": {
+              "Morning": "Visit Central Park for a stroll or bike ride.",
+              "Afternoon": "Explore the Metropolitan Museum of Art.",
+              "Evening": "Dinner in Times Square followed by a Broadway show."
+            },
+            "Sunday": {
+              "Morning": "Brunch in the West Village.",
+              "Afternoon": "Visit the 9/11 Memorial and Museum.",
+              "Evening": "Departure."
+            }
+          },
+          "next_steps": "Review the itinerary and suggest any adjustments or additional activities."
+        },
+        "error": null,
+        "confidence": 0.8,
+        "side_effects": [],
+        "observations": [
+          "Requires external: False"
+        ]
+      },
+      "created_at": "2025-11-28T21:03:58.036833",
+      "started_at": "2025-11-28T21:04:09.505007",
+      "completed_at": "2025-11-28T21:04:13.338117",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "completed",
+  "started_at": "2025-11-28T21:03:58.036937",
+  "completed_at": "2025-11-28T21:04:13.338128",
+  "success": true,
+  "final_outcome": null,
+  "pattern_signature": "0ecce220e2c31dec",
+  "tags": [],
+  "total_cost": {
+    "estimated_costs": {},
+    "actual_costs": {},
+    "estimated_benefits": {},
+    "actual_benefits": {},
+    "risks": [],
+    "risk_mitigation": []
+  },
+  "evaluation_score": 1.0,
+  "lessons_learned": []
+}

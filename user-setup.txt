@@ -1,0 +1,11 @@
+curl -X POST http://localhost:8008/api/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{
+    "username": "noeldodd",
+    "password": "***",
+    "email": "noeldodd@gmail.com"
+  }'
+
+  responds with:
+
+  {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiM2M4ZjZjOWMtOTlhMC00MTgwLWE3N2QtNjQ0NDI0NzgxMjU1IiwidXNlcm5hbWUiOiJub2VsZG9kZCIsImF1dGhfbGV2ZWwiOjEsImV4cCI6MTc2NDU0MzY2MCwiaWF0IjoxNzY0NDU3MjYwfQ.Fr4BNCWMZggH1CRBQN0j9-04mKwwegFgDrkwwwZ8xv4","token_type":"bearer","user":{"id":"3c8f6c9c-99a0-4180-a77d-644424781255","username":"noeldodd","auth_level":1}}

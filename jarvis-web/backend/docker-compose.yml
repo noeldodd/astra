@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  websocket:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "${WEBSOCKET_PORT}:${WEBSOCKET_PORT}"

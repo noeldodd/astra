@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  jarvis-core:
+    build: ./jarvis-core
+    container_name: jarvis-core
+    volumes:
+      - ./jarvis:/app
+      - jarvis-data:/app/state
+    networks:
+      - jarvis-net
+    restart: unless-stopped
+
+  jarvis-web-backend:
+    build: ./backend
+    container_name: jarvis-web-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - JARVIS_CORE_HOST=jarvis-core
+      - JWT_SECRET=${JWT_SECRET}
+    depends_on:
+      - jarvis-core
+    networks:
+      - jarvis-net
+    restart: unless-stopped
+
+  jarvis-web-frontend:
+    build: ./frontend
+    container_name: jarvis-web-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - jarvis-web-backend
+    networks:
+      - jarvis-net
+    restart: unless-stopped
+
+networks:
+  jarvis-net:
+    driver: bridge
+
+volumes:
+  jarvis-data:

@@ -1,0 +1,133 @@
+{
+  "steps": [
+    {
+      "id": "root",
+      "prompt": "Find the best Italian restaurant nearby",
+      "type": "branching",
+      "children": [
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
+      ],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.8,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.4
+      }
+    },
+    {
+      "id": "step_1",
+      "prompt": "Search for Italian restaurants in user's area",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.5,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    },
+    {
+      "id": "step_2",
+      "prompt": "Filter restaurants by criteria",
+      "type": "branching",
+      "children": [
+        "step_2a",
+        "step_2b",
+        "step_2c"
+      ],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.8,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.7
+      }
+    },
+    {
+      "id": "step_2a",
+      "prompt": "Filter by minimum 4-star rating",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.2,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    },
+    {
+      "id": "step_2b",
+      "prompt": "Filter by budget constraints",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.2,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    },
+    {
+      "id": "step_2c",
+      "prompt": "Filter by proximity to user location",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.2,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    },
+    {
+      "id": "step_3",
+      "prompt": "Rank remaining options by user preferences",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.8,
+        "domain": 0.5,
+        "complexity": 0.2,
+        "outputType": 0.5,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    },
+    {
+      "id": "step_4",
+      "prompt": "Present top 3 recommendations with rationale",
+      "type": "one-shot",
+      "children": [],
+      "fingerprint": {
+        "intent": 0.5,
+        "domain": 0.5,
+        "complexity": 0.2,
+        "outputType": 1.0,
+        "specificity": 0.4,
+        "timeHorizon": 0.5,
+        "interactivity": 0.2
+      }
+    }
+  ]
+}

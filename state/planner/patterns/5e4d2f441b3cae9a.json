@@ -1,0 +1,95 @@
+{
+  "id": "0b3d5928",
+  "root_goal_id": "7ceb22b4",
+  "description": "find the best restaurant",
+  "goals": {
+    "55ce0073": {
+      "id": "55ce0073",
+      "parent_id": null,
+      "plan_id": "0b3d5928",
+      "description": "find the best restaurant",
+      "goal_type": "linear",
+      "prompt_template": null,
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T13:22:52.254389",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {},
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "7ceb22b4": {
+      "id": "7ceb22b4",
+      "parent_id": null,
+      "plan_id": "0b3d5928",
+      "description": "Help me plan tomorrow",
+      "goal_type": "one_shot",
+      "prompt_template": "Help me plan tomorrow",
+      "children": [],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": null,
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "response": "Of course! To help you plan your day, I need a bit more information. Here are a few questions:\n\n1. What time do you plan to start your day?\n2. Do you have any specific tasks or appointments scheduled?\n3. Are there any personal goals or activities you want to include (exercise, reading, etc.)?\n4. How much time do you want to allocate for work versus leisure?\n5. Do you have any meals or social events planned?\n\nOnce I have this information, I can help you create a more tailored plan!"
+        },
+        "error": null,
+        "confidence": 0.8,
+        "side_effects": [],
+        "observations": []
+      },
+      "created_at": "2025-11-26T13:22:52.254450",
+      "started_at": "2025-11-26T13:22:52.254601",
+      "completed_at": "2025-11-26T13:22:54.485479",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 2.762117385864258
+        },
+        "actual_costs": {
+          "time": 2.230576992034912
+        },
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "completed",
+  "started_at": "2025-11-26T13:22:52.254593",
+  "completed_at": "2025-11-26T13:22:54.485503",
+  "success": true,
+  "final_outcome": null,
+  "pattern_signature": "5e4d2f441b3cae9a",
+  "tags": [],
+  "total_cost": {
+    "estimated_costs": {
+      "time": 2.762117385864258
+    },
+    "actual_costs": {},
+    "estimated_benefits": {},
+    "actual_benefits": {},
+    "risks": [],
+    "risk_mitigation": []
+  },
+  "evaluation_score": 1.0,
+  "lessons_learned": []
+}

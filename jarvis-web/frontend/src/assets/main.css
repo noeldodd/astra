@@ -1,0 +1,88 @@
+/* src/assets/main.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-white antialiased;
+  }
+}
+
+@layer components {
+  /* Status pip component */
+  .status-pip {
+    @apply rounded-full transition-all duration-300;
+  }
+  
+  .status-pip-minimized {
+    @apply w-3 h-3;
+  }
+  
+  .status-pip-compact {
+    @apply w-6 h-6 flex items-center justify-center text-xs;
+  }
+  
+  .status-pip-expanded {
+    @apply w-8 h-8 flex items-center justify-center text-sm;
+  }
+  
+  /* Panel states */
+  .panel {
+    @apply bg-gray-900 rounded-lg overflow-hidden transition-all duration-300;
+  }
+  
+  .panel-minimized {
+    @apply opacity-70;
+  }
+  
+  .panel-compact {
+    @apply opacity-90;
+  }
+  
+  .panel-expanded {
+    @apply opacity-100;
+  }
+  
+  /* Scrollbar styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-800 rounded;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-600 rounded hover:bg-gray-500;
+  }
+  
+  /* Message bubbles */
+  .message-user {
+    @apply bg-blue-600 text-white rounded-lg px-4 py-2 max-w-lg ml-auto;
+  }
+  
+  .message-assistant {
+    @apply bg-gray-700 text-white rounded-lg px-4 py-2 max-w-lg mr-auto;
+  }
+}
+
+@layer utilities {
+  /* Glassmorphism effect */
+  .glass {
+    @apply bg-gray-900/80 backdrop-blur-lg;
+  }
+  
+  /* Glow effect */
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+  
+  .glow-purple {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+  }
+  
+  .glow-green {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+  }
+}

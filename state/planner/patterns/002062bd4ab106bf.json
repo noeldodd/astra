@@ -1,0 +1,244 @@
+{
+  "id": "pattern_research",
+  "root_goal_id": "research_root",
+  "description": "Research and comparison pattern",
+  "goals": {
+    "research_root": {
+      "id": "research_root",
+      "parent_id": null,
+      "plan_id": "pattern_research",
+      "description": "Research topic and provide recommendation",
+      "goal_type": "linear",
+      "prompt_template": null,
+      "children": [
+        "research_step1",
+        "research_step2",
+        "research_step3",
+        "research_step4"
+      ],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": "Well-researched recommendation with rationale",
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542325",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 20.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {
+          "informed_decision": 1.0
+        },
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_step1": {
+      "id": "research_step1",
+      "parent_id": "research_root",
+      "plan_id": "pattern_research",
+      "description": "Clarify requirements and constraints",
+      "goal_type": "one_shot",
+      "prompt_template": "Extract key requirements: budget, preferences, constraints, priorities",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542331",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 2.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_step2": {
+      "id": "research_step2",
+      "parent_id": "research_root",
+      "plan_id": "pattern_research",
+      "description": "Gather options from multiple sources",
+      "goal_type": "parallel",
+      "prompt_template": null,
+      "children": [
+        "research_source1",
+        "research_source2"
+      ],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542335",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 10.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_source1": {
+      "id": "research_source1",
+      "parent_id": "research_step2",
+      "plan_id": "pattern_research",
+      "description": "Search primary source",
+      "goal_type": "one_shot",
+      "prompt_template": "Search for options matching requirements",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542338",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {},
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_source2": {
+      "id": "research_source2",
+      "parent_id": "research_step2",
+      "plan_id": "pattern_research",
+      "description": "Check user preferences and history",
+      "goal_type": "one_shot",
+      "prompt_template": "Review user's past choices and stated preferences",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542343",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {},
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_step3": {
+      "id": "research_step3",
+      "parent_id": "research_root",
+      "plan_id": "pattern_research",
+      "description": "Filter options and rank by fit",
+      "goal_type": "one_shot",
+      "prompt_template": "Filter options by hard requirements, then rank by preference match",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542347",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "research_step4": {
+      "id": "research_step4",
+      "parent_id": "research_root",
+      "plan_id": "pattern_research",
+      "description": "Present top 3 recommendations with rationale",
+      "goal_type": "one_shot",
+      "prompt_template": "Format top 3 options with pros/cons and recommendation",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-11-26T12:12:23.542352",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 3.0
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "completed",
+  "started_at": null,
+  "completed_at": null,
+  "success": true,
+  "final_outcome": null,
+  "pattern_signature": "002062bd4ab106bf",
+  "tags": [
+    "research",
+    "comparison",
+    "recommendation"
+  ],
+  "total_cost": {
+    "estimated_costs": {},
+    "actual_costs": {},
+    "estimated_benefits": {},
+    "actual_benefits": {},
+    "risks": [],
+    "risk_mitigation": []
+  },
+  "evaluation_score": 0.88,
+  "lessons_learned": []
+}

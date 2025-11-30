@@ -1,0 +1,5 @@
+{
+  "idle_delay": 30.0,
+  "loop_delay": 0.1,
+  "llm_provider": "openai"
+}

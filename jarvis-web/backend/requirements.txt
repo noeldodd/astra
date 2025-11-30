@@ -1,0 +1,18 @@
+# requirements.txt
+# JARVIS WebSocket Backend Dependencies
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Authentication
+pyjwt==2.8.0
+bcrypt==4.1.1
+python-multipart==0.0.6
+
+# Data validation
+pydantic==2.5.0
+
+# Utilities
+python-dotenv==1.0.0
