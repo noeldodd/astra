@@ -15,7 +15,7 @@
       class="flex-1 overflow-y-auto p-6 space-y-4 custom-scrollbar"
     >
       <!-- Welcome message if no messages -->
-      <div v-if="messages.length === 0" class="text-center text-gray-400 py-12">
+      <div v-if="messages.length === 0 && !pendingQuestion" class="text-center text-gray-400 py-12">
         <div class="text-4xl mb-4">🤖</div>
         <div class="text-lg">Welcome to JARVIS</div>
         <div class="text-sm mt-2">
@@ -27,24 +27,35 @@
       <div 
         v-for="msg in messages" 
         :key="msg.id"
-        :class="msg.type === 'user' ? 'text-right' : 'text-left'"
+        :class="msg.role === 'user' ? 'text-right' : 'text-left'"
       >
         <div 
           :class="[
             'inline-block max-w-lg p-3 rounded-lg',
-            msg.type === 'user' 
+            msg.role === 'user' 
               ? 'bg-blue-600 text-white' 
-              : msg.type === 'system'
+              : msg.role === 'system'
               ? 'bg-purple-900/50 border border-purple-700 text-purple-200 text-sm'
               : 'bg-gray-700 text-white'
           ]"
         >
           {{ msg.content }}
         </div>
-        <div class="text-xs text-gray-500 mt-1">
+        <div 
+          :class="[
+            'text-xs mt-1',
+            msg.role === 'user' ? 'text-gray-400' : 'text-gray-500'
+          ]"
+        >
           {{ formatTime(msg.timestamp) }}
         </div>
       </div>
+
+      <!-- Pending Question Card -->
+      <QuestionCard
+        v-if="pendingQuestion"
+        v-bind="pendingQuestion"
+      />
     </div>
 
     <!-- Input Bar -->
@@ -87,13 +98,17 @@
 import { ref, computed, watch, nextTick, onMounted } from 'vue'
 import { useChatStore } from '@/stores/chat'
 import { useAuthStore } from '@/stores/auth'
+import { useInteractionStore } from '@/stores/interaction'
 import { useWebSocket } from '@/composables/useWebSocket'
+import QuestionCard from '@/components/interaction/QuestionCard.vue'
 
 const chatStore = useChatStore()
 const authStore = useAuthStore()
+const interactionStore = useInteractionStore()
 const { isConnected, isConnecting, connect, sendMessage } = useWebSocket()
 
 const messages = computed(() => chatStore.messages)
+const pendingQuestion = computed(() => interactionStore.pendingQuestion)
 const messagesContainer = ref(null)
 const inputText = ref('')
 
@@ -104,8 +119,8 @@ onMounted(() => {
   }
 })
 
-// Auto-scroll to bottom on new messages
-watch(messages, async () => {
+// Auto-scroll to bottom on new messages or questions
+watch([messages, pendingQuestion], async () => {
   await nextTick()
   if (messagesContainer.value) {
     messagesContainer.value.scrollTo({
@@ -113,7 +128,7 @@ watch(messages, async () => {
       behavior: 'smooth'
     })
   }
-})
+}, { deep: true })
 
 function send() {
   if (!inputText.value.trim() || !isConnected.value) return
@@ -128,3 +143,22 @@ function formatTime(timestamp) {
   return date.toLocaleTimeString()
 }
 </script>
+
+<style scoped>
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+</style>

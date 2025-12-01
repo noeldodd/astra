@@ -15,6 +15,7 @@ Features:
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from contextlib import asynccontextmanager
 from typing import Dict, Set, Optional, Any
 import asyncio
 import json
@@ -26,6 +27,7 @@ from dotenv import load_dotenv
 
 from auth_manager import AuthManager, User
 from event_broadcaster import EventBroadcaster, Event, EventType
+from jarvis_connector import JarvisConnector, get_connector
 
 # Load environment variables
 load_dotenv()
@@ -40,8 +42,49 @@ CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'http://localhost:3000,http://localhost
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# FastAPI app
-app = FastAPI(title="JARVIS WebSocket Server", version="1.0.0")
+# Initialize managers
+auth_manager = AuthManager()
+event_broadcaster = EventBroadcaster()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan context manager for startup and shutdown"""
+    # Startup
+    logger.info("JARVIS WebSocket Server starting...")
+    
+    # Create default admin user if none exists
+    if not auth_manager.get_user_by_username("admin"):
+        admin = auth_manager.create_user(
+            username="admin",
+            password="admin123",  # Change this!
+            auth_level=4
+        )
+        logger.info("Created default admin user (username: admin, password: admin123)")
+        logger.warning("⚠️  CHANGE THE DEFAULT ADMIN PASSWORD!")
+    
+    # Initialize JARVIS connector
+    connector = get_connector(event_broadcaster=event_broadcaster)
+    await connector.initialize()
+    
+    logger.info("WebSocket server ready!")
+    
+    yield
+    
+    # Shutdown
+    logger.info("JARVIS WebSocket Server shutting down...")
+    
+    # Disconnect all clients
+    for user_id in list(connection_manager.active_connections.keys()):
+        try:
+            await connection_manager.active_connections[user_id].close()
+        except:
+            pass
+        connection_manager.disconnect(user_id)
+    
+    logger.info("Server shutdown complete")
+
+# FastAPI app with lifespan
+app = FastAPI(title="JARVIS WebSocket Server", version="1.0.0", lifespan=lifespan)
 
 # CORS middleware (allow frontend to connect)
 app.add_middleware(
@@ -55,10 +98,6 @@ app.add_middleware(
 # Security
 security = HTTPBearer()
 
-# Initialize managers
-auth_manager = AuthManager()
-event_broadcaster = EventBroadcaster()
-
 # Active WebSocket connections
 class ConnectionManager:
     """Manage active WebSocket connections"""
@@ -68,9 +107,7 @@ class ConnectionManager:
         self.user_sessions: Dict[str, dict] = {}  # user_id -> session_data
     
     async def connect(self, websocket: WebSocket, user: User):
-        """Register new WebSocket connection"""
-        await websocket.accept()
-        
+        """Register new WebSocket connection (websocket already accepted)"""
         # Disconnect existing session if any
         if user.id in self.active_connections:
             old_ws = self.active_connections[user.id]
@@ -369,13 +406,14 @@ async def handle_user_message(user: User, message: dict):
     
     logger.info(f"User message from {user.username}: {content[:50]}...")
     
-    # TODO: Send to JARVIS core for processing
-    # For now, echo back
-    await connection_manager.send_to_user(user.id, {
-        "type": "assistant_message",
-        "content": f"Received: {content}",
-        "timestamp": datetime.now().isoformat()
-    })
+    # Route to JARVIS connector
+    connector = get_connector()
+    
+    await connector.process_user_message(
+        user_id=user.id,
+        message=content,
+        send_response=connection_manager.send_to_user
+    )
     
     # Broadcast user activity (auth level 2+)
     await event_broadcaster.broadcast(Event(
@@ -395,7 +433,7 @@ async def handle_plan_approval(user: User, message: dict):
     
     action = "approved" if approved else "rejected"
     logger.info(f"Plan {plan_id} {action} by {user.username}")
-
+    
     # TODO: Send to JARVIS core
     
     await connection_manager.send_to_user(user.id, {
@@ -419,38 +457,6 @@ async def handle_system_command(user: User, message: dict):
     })
 
 # ==================== STARTUP/SHUTDOWN ====================
-
-@app.on_event("startup")
-async def startup_event():
-    """Initialize on startup"""
-    logger.info("JARVIS WebSocket Server starting...")
-    
-    # Create default admin user if none exists
-    if not auth_manager.get_user_by_username("admin"):
-        admin = auth_manager.create_user(
-            username="admin",
-            password="admin123",  # Change this!
-            auth_level=4
-        )
-        logger.info("Created default admin user (username: admin, password: admin123)")
-        logger.warning("⚠️  CHANGE THE DEFAULT ADMIN PASSWORD!")
-    
-    logger.info("WebSocket server ready!")
-
-@app.on_event("shutdown")
-async def shutdown_event():
-    """Cleanup on shutdown"""
-    logger.info("JARVIS WebSocket Server shutting down...")
-    
-    # Disconnect all clients
-    for user_id in list(connection_manager.active_connections.keys()):
-        try:
-            await connection_manager.active_connections[user_id].close()
-        except:
-            pass
-        connection_manager.disconnect(user_id)
-    
-    logger.info("Server shutdown complete")
 
 # ==================== MAIN ====================
 

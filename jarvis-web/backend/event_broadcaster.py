@@ -36,6 +36,7 @@ class EventType(str, Enum):
     PLANNING_STEP_FAILED = "planning.step_failed"
     PLANNING_COMPLETED = "planning.plan_completed"
     PLANNING_FAILED = "planning.plan_failed"
+    PLANNING_NEEDS_INPUT = "planning.needs_input"  # User interaction required
     
     # Search events
     SEARCH_QUERY = "search.query"
@@ -60,6 +61,7 @@ class EventType(str, Enum):
     SYSTEM_QUEUE_UPDATE = "system.queue_update"
     
     # Logs
+    LOG_EVENT = "log.event"  # Generic log event
     LOG_ERROR = "log.error"
     LOG_WARNING = "log.warning"
     LOG_INFO = "log.info"

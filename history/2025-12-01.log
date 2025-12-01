@@ -1,0 +1,489 @@
+[2025-12-01 13:49:58.866] [BOOT] ==================================================
+[2025-12-01 13:49:58.866] [BOOT] JARVIS AWAKENING (with Planning)
+[2025-12-01 13:49:58.866] [BOOT] ==================================================
+[2025-12-01 13:49:58.867] [BOOT] Identity loaded: Jarvis
+[2025-12-01 13:49:58.867] [BOOT] Cleared old boot prompts for update
+[2025-12-01 13:49:58.867] [BOOT] Created default boot prompts
+[2025-12-01 13:49:58.867] [BOOT] Action boundaries loaded
+[2025-12-01 13:49:58.867] [BOOT] Configuration loaded
+[2025-12-01 13:49:58.867] [BOOT] Restored 0 tasks from previous session
+[2025-12-01 13:49:58.867] [BOOT] Loaded 0 runtime prompts
+[2025-12-01 13:49:58.868] [BOOT] Loaded 4 terminal contexts
+[2025-12-01 13:49:58.868] [BOOT] Terminal 0 (self) initialized
+[2025-12-01 13:49:58.868] [BOOT] Prompt manager initialized: openai
+[2025-12-01 13:49:58.868] [BOOT] Memory initialized: 1 contacts, 1 notes, 1 events
+[2025-12-01 13:49:58.869] [BOOT] Planner initialized: 6 patterns loaded
+[2025-12-01 13:49:58.869] [PLANNING] Planning orchestrator initialized
+[2025-12-01 13:49:58.869] [BOOT] Planning orchestrator initialized
+[2025-12-01 13:49:58.869] [BOOT] Analysis subsystems initialized
+[2025-12-01 13:49:58.869] [BOOT] Intent classifier initialized
+[2025-12-01 13:49:58.869] [BOOT] Intent handlers initialized
+[2025-12-01 13:49:58.869] [BOOT] Search provider initialized
+[2025-12-01 13:49:58.869] [BOOT] Queue empty - generating first thought
+[2025-12-01 13:50:01.478] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:50:01.478] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:50:01.478] [BOOT] ==================================================
+[2025-12-01 13:50:01.478] [BOOT] JARVIS ONLINE - 1 tasks in queue
+[2025-12-01 13:50:01.478] [BOOT] ==================================================
+[2025-12-01 13:50:01.490] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:50:01.490] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:50:01.500] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:50:33.908] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:50:33.909] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:50:33.909] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:50:33.909] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:50:33.920] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:51:06.759] [SELF] Thinking: This task is crucial for understanding the effectiveness and ethical implications of AI in mental health, ensuring that the technology is used responsibly and beneficially for users.
+[2025-12-01 13:51:06.759] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:51:06.759] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:51:06.759] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:51:06.771] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:51:39.542] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:51:41.331] [INTENT] Classifying: 'if you had to execute a plan to give audio reminde...'
+[2025-12-01 13:51:39.542] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:51:39.542] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:51:39.542] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:51:39.554] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:52:12.100] [SELF] Thinking: This task is crucial for understanding the effectiveness and ethical implications of AI in mental health, ensuring that user experiences are positive and that ethical standards are upheld.
+[2025-12-01 13:52:12.100] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:52:12.100] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:52:12.100] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:52:12.111] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:52:44.957] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:52:44.958] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:52:44.958] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:52:44.958] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:52:44.969] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:53:17.167] [SELF] Thinking: Understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:53:17.167] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:53:17.167] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:53:17.167] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:53:17.178] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:53:49.101] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 13:53:49.101] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:53:49.101] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:53:49.101] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:53:49.113] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:54:21.514] [SELF] Thinking: This task is crucial for understanding the effectiveness and ethical implications of AI in mental health, ensuring that the technology is used responsibly and beneficially for users.
+[2025-12-01 13:51:43.572] [INTENT] Quick classification: 'question' (confidence: 0.85)
+[2025-12-01 13:51:43.572] [INTENT] High-confidence question → query (fast-path)
+[2025-12-01 13:54:22.461] [INTENT] Classifying: 'if you had to execute a plan to give audio reminde...'
+[2025-12-01 13:54:21.514] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:54:21.514] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:54:21.514] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:54:21.525] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:54:53.510] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:54:53.510] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:54:53.510] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:54:53.510] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:54:53.522] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:55:25.140] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:55:25.141] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:54:24.126] [INTENT] Quick classification: 'question' (confidence: 0.85)
+[2025-12-01 13:54:24.126] [INTENT] High-confidence question → query (fast-path)
+[2025-12-01 13:55:35.181] [INTENT] Quick classification: 'chat' (confidence: 0.95)
+[2025-12-01 13:55:25.141] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:55:25.141] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:55:25.153] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:55:57.124] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:55:57.125] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:55:57.125] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:55:57.125] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:55:57.136] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:56:29.123] [SELF] Thinking: This task is crucial for understanding how users perceive AI in mental health, ensuring ethical standards are upheld, and improving the overall effectiveness and safety of AI applications in this sensitive area.
+[2025-12-01 13:56:29.123] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:56:29.123] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:56:29.123] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:56:29.134] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:57:00.878] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 13:57:00.878] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:57:00.878] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:57:00.878] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:57:00.890] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:57:33.105] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:57:33.105] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:57:33.105] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:57:33.105] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:57:33.116] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:58:05.149] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:58:05.149] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:58:00.033] [BOOT] ==================================================
+[2025-12-01 13:58:00.033] [BOOT] JARVIS AWAKENING (with Planning)
+[2025-12-01 13:58:00.033] [BOOT] ==================================================
+[2025-12-01 13:58:00.033] [BOOT] Identity loaded: Jarvis
+[2025-12-01 13:58:00.033] [BOOT] Cleared old boot prompts for update
+[2025-12-01 13:58:00.033] [BOOT] Created default boot prompts
+[2025-12-01 13:58:00.033] [BOOT] Action boundaries loaded
+[2025-12-01 13:58:00.034] [BOOT] Configuration loaded
+[2025-12-01 13:58:00.034] [BOOT] Restored 0 tasks from previous session
+[2025-12-01 13:58:00.034] [BOOT] Loaded 0 runtime prompts
+[2025-12-01 13:58:00.034] [BOOT] Loaded 4 terminal contexts
+[2025-12-01 13:58:00.034] [BOOT] Terminal 0 (self) initialized
+[2025-12-01 13:58:00.034] [BOOT] Prompt manager initialized: openai
+[2025-12-01 13:58:00.035] [BOOT] Memory initialized: 1 contacts, 1 notes, 1 events
+[2025-12-01 13:58:00.036] [BOOT] Planner initialized: 6 patterns loaded
+[2025-12-01 13:58:00.036] [PLANNING] Planning orchestrator initialized
+[2025-12-01 13:58:00.036] [BOOT] Planning orchestrator initialized
+[2025-12-01 13:58:00.036] [BOOT] Analysis subsystems initialized
+[2025-12-01 13:58:00.036] [BOOT] Intent classifier initialized
+[2025-12-01 13:58:00.036] [BOOT] Intent handlers initialized
+[2025-12-01 13:58:00.036] [BOOT] Search provider initialized
+[2025-12-01 13:58:00.036] [BOOT] Queue empty - generating first thought
+[2025-12-01 13:58:02.118] [SELF] Thinking: This task is crucial for understanding the effectiveness and ethical implications of AI in mental health, ensuring that user experiences are positive and that any potential ethical concerns are addressed.
+[2025-12-01 13:58:02.118] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:58:02.118] [BOOT] ==================================================
+[2025-12-01 13:58:02.118] [BOOT] JARVIS ONLINE - 1 tasks in queue
+[2025-12-01 13:58:02.118] [BOOT] ==================================================
+[2025-12-01 13:58:11.278] [INTENT] Quick classification: 'chat' (confidence: 0.95)
+[2025-12-01 13:58:11.278] [INTENT] High-confidence chat → conversation (fast-path)
+[2025-12-01 13:58:27.090] [INTENT] Classifying: 'if you had to execute a plan to give audio reminde...'
+[2025-12-01 13:58:05.149] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:58:05.149] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:58:05.160] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:58:37.071] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:58:37.071] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:58:37.072] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:58:37.072] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:58:37.083] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:59:08.933] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 13:58:28.817] [INTENT] Quick classification: 'question' (confidence: 0.85)
+[2025-12-01 13:58:28.817] [INTENT] High-confidence question → query (fast-path)
+[2025-12-01 13:59:23.349] [INTENT] Classifying: 'Plan a movie tonight for tonight....'
+[2025-12-01 13:59:25.046] [INTENT] Quick classification: 'task' (confidence: 0.85)
+[2025-12-01 13:59:25.046] [INTENT] Planning task detected (fast-path)
+[2025-12-01 13:59:25.047] [PLANNING] Creating plan for: Plan a movie tonight for tonight.
+[2025-12-01 13:59:35.027] [PLANNING] Plan type: linear
+[2025-12-01 13:59:08.934] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:59:08.934] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:59:08.934] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:59:08.945] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 13:59:40.934] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 13:59:35.027] [PLANNING] Reasoning: The request involves multiple sequential steps to find, select, and prepare for a movie tonight.
+[2025-12-01 13:59:35.027] [PLANNING] Missing info: User's preferred genre, Available streaming services, Time for the movie
+[2025-12-01 13:59:35.027] [PLANNING] Executing plan e5d8f65e: Plan a movie tonight for tonight.
+[2025-12-01 13:59:35.027] [PLANNING]   Executing: Check available streaming services for movie options
+[2025-12-01 13:59:39.333] [PLANNING]     → Analyzed available streaming services for movie options.
+[2025-12-01 13:59:39.333] [PLANNING]   Executing: Filter movies by genre, ratings, and availability
+[2025-12-01 13:59:42.957] [PLANNING]     → analyzed available movie options based on genre, ratings, and availability
+[2025-12-01 13:59:42.957] [PLANNING]   Executing: Present top 3 movie recommendations to the user
+[2025-12-01 13:59:46.573] [PLANNING]     → analyzed and generated movie recommendations based on popular choices
+[2025-12-01 13:59:46.573] [PLANNING]   Executing: Ask user for their choice and confirm the selected movie
+[2025-12-01 13:59:48.567] [PLANNING]     → Asked user for their choice of movie
+[2025-12-01 13:59:48.567] [PLANNING]   Executing: Set a reminder for the movie time and prepare any necessary snacks
+[2025-12-01 13:59:50.796] [PLANNING]     → Analyzed the current goal and planned the necessary steps to set a reminder and prepare snacks.
+[2025-12-01 13:59:50.796] [PLANNING] Plan e5d8f65e completed: True, score: 1.00
+[2025-12-01 13:59:50.797] [DEBUG] Plan ID: e5d8f65e
+[2025-12-01 13:59:50.797] [DEBUG] Plan has 6 goals
+[2025-12-01 13:59:50.797] [DEBUG] Root goal exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Root goal ID: 5b418a78
+[2025-12-01 13:59:50.797] [DEBUG] Root goal has children: True
+[2025-12-01 13:59:50.797] [DEBUG] Root goal children count: 5
+[2025-12-01 13:59:50.797] [DEBUG] Root goal children: ['659c90ed', '7d82ee6c', '8c272e5c', 'ea14bf79', '7504a7ac']
+[2025-12-01 13:59:50.797] [DEBUG] Child 1 ID: 659c90ed
+[2025-12-01 13:59:50.797] [DEBUG] Child 1 exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 1 description: Check available streaming services for movie options
+[2025-12-01 13:59:50.797] [DEBUG] Child 1 has actual_outcome: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 1 actual_outcome value: Outcome(success=True, result_data={'action': 'Analyzed available streaming services for movie options.', 'result': "Currently, popular streaming services such as Netflix, Amazon Prime Video, Hulu, and Disney+ offer a variety of movie options. For instance, Netflix has new releases like 'The Gray Man' and classic films like 'The Shawshank Redemption'. Amazon Prime Video features 'Being the Ricardos' and 'The Tomorrow War'. Hulu includes options like 'Nomadland' and 'Palm Springs'. Disney+ has family-friendly films such as 'Raya and the Last Dragon' and 'Luca'.", 'next_steps': 'Select a specific movie from the options provided and check its availability on the chosen streaming service.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 13:59:50.797] [DEBUG] Child 2 ID: 7d82ee6c
+[2025-12-01 13:59:50.797] [DEBUG] Child 2 exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 2 description: Filter movies by genre, ratings, and availability
+[2025-12-01 13:59:50.797] [DEBUG] Child 2 has actual_outcome: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 2 actual_outcome value: Outcome(success=True, result_data={'action': 'analyzed available movie options based on genre, ratings, and availability', 'result': "Filtered movies include: 1) 'Inception' - Sci-Fi, 8.8/10, available on Netflix; 2) 'The Shawshank Redemption' - Drama, 9.3/10, available on Amazon Prime; 3) 'The Dark Knight' - Action, 9.0/10, available on HBO Max. All options are highly rated and available for streaming tonight.", 'next_steps': "Choose one of the filtered movies for tonight's viewing."}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 13:59:50.797] [DEBUG] Child 3 ID: 8c272e5c
+[2025-12-01 13:59:50.797] [DEBUG] Child 3 exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 3 description: Present top 3 movie recommendations to the user
+[2025-12-01 13:59:50.797] [DEBUG] Child 3 has actual_outcome: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 3 actual_outcome value: Outcome(success=True, result_data={'action': 'analyzed and generated movie recommendations based on popular choices', 'result': 'Here are the top 3 movie recommendations for tonight:\n1. **Everything Everywhere All at Once** - A mind-bending adventure that combines action, comedy, and heartfelt moments as a woman discovers her multiverse selves.\n2. **The Batman** - A darker take on the iconic superhero, featuring a gripping detective story and a strong performance by Robert Pattinson.\n3. **Top Gun: Maverick** - A thrilling sequel that brings back Tom Cruise as Maverick, filled with high-flying action and nostalgia for fans of the original.', 'next_steps': 'Choose one of the recommended movies to watch tonight.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 13:59:50.797] [DEBUG] Child 4 ID: ea14bf79
+[2025-12-01 13:59:50.797] [DEBUG] Child 4 exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 4 description: Ask user for their choice and confirm the selected movie
+[2025-12-01 13:59:50.797] [DEBUG] Child 4 has actual_outcome: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 4 actual_outcome value: Outcome(success=True, result_data={'action': 'Asked user for their choice of movie', 'result': 'Please provide your choice of movie for tonight, and I will confirm it.', 'next_steps': "Wait for the user's movie selection and confirm it."}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 13:59:50.797] [DEBUG] Child 5 ID: 7504a7ac
+[2025-12-01 13:59:50.797] [DEBUG] Child 5 exists: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 5 description: Set a reminder for the movie time and prepare any necessary snacks
+[2025-12-01 13:59:50.797] [DEBUG] Child 5 has actual_outcome: True
+[2025-12-01 13:59:50.797] [DEBUG] Child 5 actual_outcome value: Outcome(success=True, result_data={'action': 'Analyzed the current goal and planned the necessary steps to set a reminder and prepare snacks.', 'result': 'Reminder set for the movie time at 7:00 PM. Snacks prepared include popcorn and nachos with cheese.', 'next_steps': 'Enjoy the movie at the scheduled time.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 13:59:50.797] [DEBUG] Total result lines: 20
+[2025-12-01 13:59:50.798] [PLANNING] Creating plan for: Plan a movie tonight for tonight.
+[2025-12-01 13:59:58.818] [PLANNING] Plan type: linear
+[2025-12-01 13:59:58.818] [PLANNING] Reasoning: The request involves multiple sequential steps to find, select, and prepare for a movie tonight.
+[2025-12-01 13:59:58.818] [PLANNING] Missing info: User's preferred genre, Available streaming services, Movie start time
+[2025-12-01 13:59:58.818] [PLANNING] Executing plan 3df91908: Plan a movie tonight for tonight.
+[2025-12-01 13:59:58.818] [PLANNING]   Executing: Check available streaming services for movies to watch tonight
+[2025-12-01 14:00:02.211] [PLANNING]     → Analyzed available streaming services for movies to watch tonight.
+[2025-12-01 14:00:02.211] [PLANNING]   Executing: Filter movies based on genre, ratings, and availability
+[2025-12-01 14:00:07.141] [PLANNING]     → analyzed available movie options based on genre, ratings, and availability
+[2025-12-01 13:59:40.934] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 13:59:40.934] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 13:59:40.934] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 13:59:40.946] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:00:12.975] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:00:07.142] [PLANNING]   Executing: Present top 3 movie options to the user
+[2025-12-01 14:00:10.475] [PLANNING]     → analyzed and generated movie options based on popular choices
+[2025-12-01 14:00:10.475] [PLANNING]   Executing: Get user's choice of movie from the top 3 options
+[2025-12-01 14:00:14.604] [PLANNING]     → analyzed user preferences and generated top movie options
+[2025-12-01 14:00:12.976] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:00:12.976] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:00:12.976] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:00:12.988] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:00:45.368] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:00:45.368] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:00:45.368] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:00:45.368] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:00:45.380] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:01:18.409] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:01:18.409] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:01:18.409] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:01:18.409] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:01:18.421] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:01:50.889] [SELF] Thinking: This task is crucial for understanding how users interact with AI in sensitive contexts, ensuring ethical standards are upheld, and improving the overall effectiveness and safety of AI applications in mental health.
+[2025-12-01 14:01:50.889] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:01:50.889] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:01:50.889] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:01:50.900] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:02:22.810] [SELF] Thinking: This task is crucial for understanding user experiences and addressing ethical concerns, which can enhance the effectiveness and trustworthiness of AI applications in mental health.
+[2025-12-01 14:02:22.811] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:02:22.811] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:02:22.811] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:02:22.822] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:02:55.265] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:02:55.266] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:02:55.266] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:02:55.266] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:02:55.278] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:03:27.135] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with user needs.
+[2025-12-01 14:03:27.135] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:03:27.135] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:03:27.135] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:03:27.147] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:03:59.341] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:03:59.341] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:03:59.341] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:03:59.342] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:03:59.353] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:04:31.949] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:04:31.949] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:04:31.949] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:04:31.949] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:04:31.961] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:05:04.069] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:05:04.069] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:05:04.069] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:05:04.069] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:05:04.081] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:05:37.292] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:05:37.292] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:05:37.292] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:05:37.292] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:05:37.303] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:06:09.022] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:06:09.022] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:06:09.022] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:06:09.022] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:06:09.034] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:06:42.148] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:06:42.148] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:06:42.148] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:06:42.148] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:06:42.159] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:07:14.389] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:07:14.390] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:07:14.390] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:07:14.390] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:07:14.401] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:07:47.109] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:07:47.109] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:07:47.109] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:07:47.109] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:07:47.120] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:08:19.372] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:08:19.372] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:08:19.372] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:08:19.372] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:08:19.384] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:08:51.821] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:08:51.821] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:00:14.604] [PLANNING]   Executing: Set a reminder for the movie start time
+[2025-12-01 14:00:16.808] [PLANNING]     → Analyzed the current goal and context to set a reminder for the movie start time.
+[2025-12-01 14:00:16.808] [PLANNING] Plan 3df91908 completed: True, score: 1.00
+[2025-12-01 14:00:16.810] [DEBUG] Plan ID: 3df91908
+[2025-12-01 14:00:16.810] [DEBUG] Plan has 6 goals
+[2025-12-01 14:00:16.810] [DEBUG] Root goal exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Root goal ID: 7a6db806
+[2025-12-01 14:00:16.810] [DEBUG] Root goal has children: True
+[2025-12-01 14:00:16.810] [DEBUG] Root goal children count: 5
+[2025-12-01 14:00:16.810] [DEBUG] Root goal children: ['51f08ff0', '6b62b921', '27f7e21a', '04b860be', '73d0acef']
+[2025-12-01 14:00:16.810] [DEBUG] Child 1 ID: 51f08ff0
+[2025-12-01 14:00:16.810] [DEBUG] Child 1 exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 1 description: Check available streaming services for movies to watch tonight
+[2025-12-01 14:00:16.810] [DEBUG] Child 1 has actual_outcome: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 1 actual_outcome value: Outcome(success=True, result_data={'action': 'Analyzed available streaming services for movies to watch tonight.', 'result': "Currently, popular streaming services such as Netflix, Amazon Prime Video, Hulu, and Disney+ have a variety of movies available. For instance, Netflix has new releases like 'The Gray Man' and classic favorites like 'The Shawshank Redemption'. Amazon Prime Video features 'Being the Ricardos' and 'The Tomorrow War'. Hulu offers 'Nomadland' and 'Palm Springs'. Disney+ has family-friendly options like 'Encanto' and 'Raya and the Last Dragon'.", 'next_steps': 'Select a movie from the options provided and check the availability on your preferred streaming service.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 14:00:16.810] [DEBUG] Child 2 ID: 6b62b921
+[2025-12-01 14:00:16.810] [DEBUG] Child 2 exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 2 description: Filter movies based on genre, ratings, and availability
+[2025-12-01 14:00:16.810] [DEBUG] Child 2 has actual_outcome: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 2 actual_outcome value: Outcome(success=True, result_data={'action': 'analyzed available movie options based on genre, ratings, and availability', 'result': "Filtered movies include: 1) 'Inception' - Sci-Fi, 8.8/10, available on Netflix; 2) 'The Shawshank Redemption' - Drama, 9.3/10, available on Amazon Prime; 3) 'The Dark Knight' - Action, 9.0/10, available on HBO Max.", 'next_steps': 'Select a movie from the filtered list and check the viewing time.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 14:00:16.810] [DEBUG] Child 3 ID: 27f7e21a
+[2025-12-01 14:00:16.810] [DEBUG] Child 3 exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 3 description: Present top 3 movie options to the user
+[2025-12-01 14:00:16.810] [DEBUG] Child 3 has actual_outcome: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 3 actual_outcome value: Outcome(success=True, result_data={'action': 'analyzed and generated movie options based on popular choices', 'result': "Here are the top 3 movie options for tonight: 1. 'Everything Everywhere All at Once' - A mind-bending adventure that blends action, comedy, and drama. 2. 'The Batman' - A dark and gritty take on the iconic superhero, featuring a strong performance by Robert Pattinson. 3. 'Top Gun: Maverick' - A thrilling sequel that brings back nostalgia while delivering high-octane aerial action.", 'next_steps': 'Choose one of the options or let me know if you need more recommendations.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 14:00:16.810] [DEBUG] Child 4 ID: 04b860be
+[2025-12-01 14:00:16.810] [DEBUG] Child 4 exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 4 description: Get user's choice of movie from the top 3 options
+[2025-12-01 14:00:16.810] [DEBUG] Child 4 has actual_outcome: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 4 actual_outcome value: Outcome(success=True, result_data={'action': 'analyzed user preferences and generated top movie options', 'result': "Based on popular choices and recent releases, here are the top 3 movie options for tonight: 1. 'Oppenheimer' - A historical drama about the life of J. Robert Oppenheimer and the creation of the atomic bomb. 2. 'Barbie' - A fun and colorful adventure that explores themes of identity and self-discovery. 3. 'Killers of the Flower Moon' - A gripping crime drama based on true events surrounding the Osage murders in the 1920s. Please let me know which one you prefer.", 'next_steps': "Wait for user's choice of movie from the provided options."}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 14:00:16.810] [DEBUG] Child 5 ID: 73d0acef
+[2025-12-01 14:00:16.810] [DEBUG] Child 5 exists: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 5 description: Set a reminder for the movie start time
+[2025-12-01 14:00:16.810] [DEBUG] Child 5 has actual_outcome: True
+[2025-12-01 14:00:16.810] [DEBUG] Child 5 actual_outcome value: Outcome(success=True, result_data={'action': 'Analyzed the current goal and context to set a reminder for the movie start time.', 'result': 'The reminder for the movie start time has been set successfully. Please confirm the movie title and start time to finalize the reminder.', 'next_steps': 'Please provide the movie title and start time to complete the reminder setup.'}, error=None, confidence=0.8, side_effects=[], observations=['Requires external: False'])
+[2025-12-01 14:00:16.810] [DEBUG] Total result lines: 20
+[2025-12-01 14:09:10.249] [INTENT] Quick classification: 'question' (confidence: 0.85)
+[2025-12-01 14:08:51.821] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:08:51.821] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:08:51.833] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:09:25.049] [SELF] Thinking: This task is crucial for understanding the effectiveness and ethical implications of AI in mental health, ensuring that user experiences are positive and that any potential ethical concerns are addressed.
+[2025-12-01 14:09:25.049] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:09:25.049] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:09:25.049] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:09:25.060] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:09:58.384] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 14:09:10.249] [INTENT] High-confidence question → query (fast-path)
+[2025-12-01 14:10:09.542] [INTENT] Classifying: 'Bob's cell number is 555-1212...'
+[2025-12-01 14:10:12.176] [INTENT] Quick classification: 'chat' (confidence: 0.90)
+[2025-12-01 14:10:12.176] [INTENT] High-confidence chat → conversation (fast-path)
+[2025-12-01 14:10:18.144] [INTENT] Quick classification: 'chat' (confidence: 0.70)
+[2025-12-01 14:10:18.144] [INTENT] Getting detailed intent classification...
+[2025-12-01 14:10:19.524] [INTENT] Detailed intent: crud_read (confidence: 0.90)
+[2025-12-01 14:10:19.525] [PLANNING] Creating plan for: list all contacts
+[2025-12-01 14:10:27.034] [PLANNING] Plan type: one_shot
+[2025-12-01 14:09:58.384] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:09:58.384] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:09:58.384] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:09:58.396] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:10:30.818] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 14:10:30.819] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:10:30.819] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:10:30.819] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:10:30.830] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:11:03.313] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy.
+[2025-12-01 14:11:03.313] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:11:03.313] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:11:03.314] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:11:03.326] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:11:35.896] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:11:35.897] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:11:35.897] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:11:35.897] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:11:35.908] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:12:08.295] [SELF] Thinking: This task is crucial for understanding user experiences and addressing ethical concerns, which can enhance the effectiveness and trustworthiness of AI applications in mental health.
+[2025-12-01 14:12:08.295] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:12:08.295] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:12:08.295] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:12:08.307] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:12:40.088] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:12:40.088] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:12:40.088] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:12:40.088] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:12:40.100] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:13:12.815] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:13:12.815] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:13:12.815] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:13:12.815] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:13:12.827] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:13:44.505] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:13:44.506] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:13:44.506] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:13:44.506] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:13:44.517] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:14:16.750] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:14:16.751] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:14:16.751] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:14:16.751] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:14:16.762] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:14:48.704] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:14:48.705] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:14:48.705] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:14:48.705] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:14:48.716] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:15:20.758] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:15:20.758] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:15:20.758] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:15:20.758] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:15:20.769] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:15:53.292] [SELF] Thinking: This task is crucial for understanding user experiences and addressing ethical concerns, which can enhance the effectiveness and trustworthiness of AI applications in mental health.
+[2025-12-01 14:15:53.292] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:15:53.292] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:15:53.293] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:15:53.304] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:16:25.828] [SELF] Thinking: This task is crucial for understanding how users interact with AI in mental health contexts, ensuring ethical standards are upheld, and improving user experience. Identifying patterns can lead to better support and development of AI applications in this sensitive area.
+[2025-12-01 14:16:25.828] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:16:25.828] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:16:25.828] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:16:25.839] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:16:59.352] [SELF] Thinking: This task is crucial for understanding user experiences and addressing ethical concerns, which can enhance the effectiveness and trustworthiness of AI applications in mental health.
+[2025-12-01 14:16:59.352] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:16:59.354] [PERSIST] State saved to disk
+[2025-12-01 14:16:59.354] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:16:59.354] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:16:59.366] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:17:31.338] [SELF] Thinking: This task is crucial for understanding user experiences and addressing ethical concerns, which can enhance the effectiveness and trustworthiness of AI applications in mental health.
+[2025-12-01 14:10:27.034] [PLANNING] Reasoning: The request is a straightforward action to retrieve and list all contacts stored in memory.
+[2025-12-01 14:10:27.034] [PLANNING] Missing info: User may want specific details about contacts (e.g., phone numbers, emails)
+[2025-12-01 14:10:27.034] [PLANNING] Executing plan 234c7782: list all contacts
+[2025-12-01 14:10:27.034] [PLANNING]   Executing: list all contacts
+[2025-12-01 14:10:30.160] [PLANNING]     → retrieved contacts from memory
+[2025-12-01 14:10:30.160] [PLANNING] Plan 234c7782 completed: True, score: 1.00
+[2025-12-01 14:10:30.161] [DEBUG] Plan ID: 234c7782
+[2025-12-01 14:10:30.161] [DEBUG] Plan has 4 goals
+[2025-12-01 14:10:30.161] [DEBUG] Root goal exists: True
+[2025-12-01 14:10:30.161] [DEBUG] Root goal ID: fe33f770
+[2025-12-01 14:10:30.161] [DEBUG] Root goal has children: True
+[2025-12-01 14:10:30.161] [DEBUG] Root goal children count: 3
+[2025-12-01 14:10:30.161] [DEBUG] Root goal children: ['f74b9d07', '3fa83dbb', '1e553da0']
+[2025-12-01 14:10:30.161] [DEBUG] Child 1 ID: f74b9d07
+[2025-12-01 14:10:30.161] [DEBUG] Child 1 exists: True
+[2025-12-01 14:10:30.161] [DEBUG] Child 1 description: Retrieve all contacts from memory
+[2025-12-01 14:10:30.161] [DEBUG] Child 1 has actual_outcome: True
+[2025-12-01 14:10:30.161] [DEBUG] Child 1 actual_outcome value: None
+[2025-12-01 14:10:30.161] [DEBUG] Child 2 ID: 3fa83dbb
+[2025-12-01 14:10:30.161] [DEBUG] Child 2 exists: True
+[2025-12-01 14:10:30.161] [DEBUG] Child 2 description: Format the list of contacts for presentation
+[2025-12-01 14:10:30.161] [DEBUG] Child 2 has actual_outcome: True
+[2025-12-01 14:10:30.161] [DEBUG] Child 2 actual_outcome value: None
+[2025-12-01 14:10:30.161] [DEBUG] Child 3 ID: 1e553da0
+[2025-12-01 14:10:30.161] [DEBUG] Child 3 exists: True
+[2025-12-01 14:10:30.161] [DEBUG] Child 3 description: Present the formatted list of contacts to the user
+[2025-12-01 14:10:30.161] [DEBUG] Child 3 has actual_outcome: True
+[2025-12-01 14:10:30.162] [DEBUG] Child 3 actual_outcome value: None
+[2025-12-01 14:10:30.162] [DEBUG] Total result lines: 5
+[2025-12-01 14:17:59.520] [INTENT] Quick classification: 'question' (confidence: 0.85)
+[2025-12-01 14:17:31.338] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:17:31.338] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:17:31.338] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:17:31.350] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:18:03.306] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and respectful of user privacy and autonomy.
+[2025-12-01 14:17:59.521] [INTENT] Memory lookup question → crud_read (fast-path)
+[2025-12-01 14:17:59.521] [PLANNING] Creating plan for: What is Bob's phone number?
+[2025-12-01 14:18:03.221] [PLANNING] Plan type: one_shot
+[2025-12-01 14:18:03.221] [PLANNING] Reasoning: This request is a single action to retrieve a specific piece of information.
+[2025-12-01 14:18:03.221] [PLANNING] Missing info: Clarification on which 'Bob' is being referred to if multiple exist
+[2025-12-01 14:18:03.221] [PLANNING] Executing plan ddeaea23: What is Bob's phone number?
+[2025-12-01 14:18:03.221] [PLANNING]   Executing: What is Bob's phone number?
+[2025-12-01 14:18:04.922] [PLANNING]     → searched memory for contacts
+[2025-12-01 14:18:03.306] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:18:03.306] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:18:03.306] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:18:03.318] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:18:35.255] [SELF] Thinking: This matters because understanding user experiences and ethical concerns is crucial for improving AI applications in mental health, ensuring they are effective, safe, and aligned with ethical standards.
+[2025-12-01 14:18:35.256] [QUEUE] Task added: [BACKGROUND] Conduct a comprehensive review of recent interacti... from Terminal 0
+[2025-12-01 14:18:35.256] [PROCESS] Processing: Conduct a comprehensive review of recent interactions to identify patterns in us...
+[2025-12-01 14:18:35.256] [SELF] Contemplating: Conduct a comprehensive review of recent interactions to identify patterns in user experiences and ethical concerns related to AI in mental health applications.
+[2025-12-01 14:18:35.267] [IDLE] Queue empty, waiting 30.0s...
+[2025-12-01 14:18:45.038] [SHUTDOWN] Shutdown requested...
+[2025-12-01 14:18:45.038] [IDLE] Interrupted by new task
+[2025-12-01 14:18:45.038] [SHUTDOWN] ==================================================
+[2025-12-01 14:18:45.038] [SHUTDOWN] JARVIS ENTERING SLEEP
+[2025-12-01 14:18:45.038] [SHUTDOWN] ==================================================

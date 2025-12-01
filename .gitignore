@@ -3,3 +3,4 @@ __pycache__
 venv
 backup*
 node_modules/
+output.txt

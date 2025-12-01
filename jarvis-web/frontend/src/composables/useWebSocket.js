@@ -4,6 +4,7 @@ import { WS_CONFIG, MESSAGE_TYPES } from '@/utils/constants'
 import { useChatStore } from '@/stores/chat'
 import { usePlanningStore } from '@/stores/planning'
 import { useSystemStore } from '@/stores/system'
+import { useInteractionStore } from '@/stores/interaction'
 
 const ws = ref(null)
 const isConnected = ref(false)
@@ -15,6 +16,7 @@ export function useWebSocket() {
   const chatStore = useChatStore()
   const planningStore = usePlanningStore()
   const systemStore = useSystemStore()
+  const interactionStore = useInteractionStore()
   
   /**
    * Connect to WebSocket server
@@ -154,7 +156,7 @@ export function useWebSocket() {
       
       case MESSAGE_TYPES.ASSISTANT_MESSAGE:
         chatStore.addMessage({
-          type: 'assistant',
+          role: 'assistant',  // Changed from 'type' to 'role'
           content: message.content,
           timestamp: message.timestamp
         })
@@ -183,6 +185,13 @@ export function useWebSocket() {
   const handleOOBEvent = (event) => {
     const eventType = event.type
     const data = event.data
+    
+    // Interaction events (NEW!)
+    if (eventType === 'planning.needs_input') {
+      console.log('[WS] Interaction needed:', data)
+      interactionStore.setPendingQuestion(data)
+      return
+    }
     
     // Planning events
     if (eventType.startsWith('planning.')) {
@@ -232,7 +241,7 @@ export function useWebSocket() {
   const sendMessage = (content) => {
     // Add to local chat immediately
     chatStore.addMessage({
-      type: 'user',
+      role: 'user',  // Changed from 'type' to 'role'
       content: content,
       timestamp: new Date().toISOString()
     })
@@ -255,6 +264,20 @@ export function useWebSocket() {
     })
   }
   
+  /**
+   * Send interaction response (NEW!)
+   */
+  const sendInteractionResponse = (interactionId, response) => {
+    send({
+      type: 'interaction_response',
+      interaction_id: interactionId,
+      response: response
+    })
+    
+    // Clear pending question
+    interactionStore.clearPendingQuestion()
+  }
+  
   // Cleanup on unmount
   onUnmounted(() => {
     disconnect()
@@ -270,6 +293,7 @@ export function useWebSocket() {
     disconnect,
     send,
     sendMessage,
-    sendPlanApproval
+    sendPlanApproval,
+    sendInteractionResponse  // NEW!
   }
 }

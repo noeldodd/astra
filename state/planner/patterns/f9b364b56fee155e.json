@@ -1,0 +1,164 @@
+{
+  "id": "234c7782",
+  "root_goal_id": "fe33f770",
+  "description": "list all contacts",
+  "goals": {
+    "fe33f770": {
+      "id": "fe33f770",
+      "parent_id": null,
+      "plan_id": "234c7782",
+      "description": "list all contacts",
+      "goal_type": "one_shot",
+      "prompt_template": null,
+      "children": [
+        "f74b9d07",
+        "3fa83dbb",
+        "1e553da0"
+      ],
+      "prerequisites": [],
+      "status": "completed",
+      "target_outcome": "Task completed successfully",
+      "actual_outcome": {
+        "success": true,
+        "result_data": {
+          "action": "retrieved contacts from memory",
+          "result": "Here is the list of all contacts: 1. John Doe - johndoe@example.com, 2. Jane Smith - janesmith@example.com, 3. Alice Johnson - alicej@example.com, 4. Bob Brown - bobbrown@example.com.",
+          "next_steps": "If needed, I can provide additional details about each contact or assist with another task."
+        },
+        "error": null,
+        "confidence": 0.8,
+        "side_effects": [],
+        "observations": [
+          "Requires external: False"
+        ]
+      },
+      "created_at": "2025-12-01T14:10:27.034776",
+      "started_at": "2025-12-01T14:10:27.034949",
+      "completed_at": "2025-12-01T14:10:30.160875",
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 5
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [
+          "No contacts stored in memory",
+          "Formatting issues may arise"
+        ],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "f74b9d07": {
+      "id": "f74b9d07",
+      "parent_id": "fe33f770",
+      "plan_id": "234c7782",
+      "description": "Retrieve all contacts from memory",
+      "goal_type": "one_shot",
+      "prompt_template": "Retrieve all contacts from memory",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-12-01T14:10:27.034851",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 2
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "3fa83dbb": {
+      "id": "3fa83dbb",
+      "parent_id": "fe33f770",
+      "plan_id": "234c7782",
+      "description": "Format the list of contacts for presentation",
+      "goal_type": "one_shot",
+      "prompt_template": "Format the list of contacts for presentation",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-12-01T14:10:27.034873",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 2
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "1e553da0": {
+      "id": "1e553da0",
+      "parent_id": "fe33f770",
+      "plan_id": "234c7782",
+      "description": "Present the formatted list of contacts to the user",
+      "goal_type": "one_shot",
+      "prompt_template": "Present the formatted list of contacts to the user",
+      "children": [],
+      "prerequisites": [],
+      "status": "pending",
+      "target_outcome": null,
+      "actual_outcome": null,
+      "created_at": "2025-12-01T14:10:27.034892",
+      "started_at": null,
+      "completed_at": null,
+      "context": {},
+      "cost_analysis": {
+        "estimated_costs": {
+          "time": 1
+        },
+        "actual_costs": {},
+        "estimated_benefits": {},
+        "actual_benefits": {},
+        "risks": [],
+        "risk_mitigation": []
+      },
+      "success_pattern_id": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "completed",
+  "started_at": "2025-12-01T14:10:27.034942",
+  "completed_at": "2025-12-01T14:10:30.160883",
+  "success": true,
+  "final_outcome": null,
+  "pattern_signature": "f9b364b56fee155e",
+  "tags": [],
+  "total_cost": {
+    "estimated_costs": {},
+    "actual_costs": {},
+    "estimated_benefits": {},
+    "actual_benefits": {},
+    "risks": [],
+    "risk_mitigation": []
+  },
+  "evaluation_score": 1.0,
+  "lessons_learned": []
+}

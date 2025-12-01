@@ -3,64 +3,68 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 
 export const useChatStore = defineStore('chat', () => {
-  // State
   const messages = ref([])
-  const pendingApproval = ref(null)
-  
-  // Getters
-  const messageCount = computed(() => messages.value.length)
-  
-  const userMessages = computed(() => 
-    messages.value.filter(m => m.type === 'user')
-  )
-  
-  const assistantMessages = computed(() =>
-    messages.value.filter(m => m.type === 'assistant')
-  )
-  
-  // Actions
+  const isTyping = ref(false)
+
   function addMessage(message) {
     messages.value.push({
-      id: Date.now() + Math.random(),
-      ...message,
+      id: message.id || Date.now(),
+      role: message.role || 'user',
+      content: message.content,
       timestamp: message.timestamp || new Date().toISOString()
     })
   }
-  
-  function addSystemMessage(content) {
+
+  function addUserMessage(content) {
     addMessage({
-      type: 'system',
+      role: 'user',
       content: content
     })
   }
-  
-  function setPendingApproval(plan) {
-    pendingApproval.value = plan
+
+  function addAssistantMessage(content) {
+    addMessage({
+      role: 'assistant',
+      content: content
+    })
   }
-  
-  function clearPendingApproval() {
-    pendingApproval.value = null
+
+    function addSystemMessage(content) {
+    addMessage({
+      role: 'system',
+      content: content
+    })
   }
-  
+
   function clearMessages() {
     messages.value = []
   }
-  
+
+  function setTyping(typing) {
+    isTyping.value = typing
+  }
+
+  const lastMessage = computed(() => {
+    return messages.value.length > 0 ? messages.value[messages.value.length - 1] : null
+  })
+
+  const messageCount = computed(() => messages.value.length)
+
   return {
     // State
     messages,
-    pendingApproval,
-    
-    // Getters
+    isTyping,
+
+    // Computed
+    lastMessage,
     messageCount,
-    userMessages,
-    assistantMessages,
-    
+
     // Actions
     addMessage,
+    addUserMessage,
+    addAssistantMessage,
     addSystemMessage,
-    setPendingApproval,
-    clearPendingApproval,
-    clearMessages
+    clearMessages,
+    setTyping
   }
 })
